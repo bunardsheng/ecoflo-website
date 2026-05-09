@@ -10,7 +10,7 @@ export async function POST(request: Request) {
   }
 
   const { error } = await resend.emails.send({
-    from: "EcoFlo Website <noreply@ecoflowash.com>",
+    from: "EcoFlo Website <onboarding@resend.dev>",
     to: ["sales@ecoflowash.com"],
     replyTo: email,
     subject: `New Quote Request: ${service || "General"} - ${name}`,
