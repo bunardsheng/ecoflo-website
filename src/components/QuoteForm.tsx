@@ -38,6 +38,10 @@ export default function QuoteForm() {
         <input type="email" id="email" name="email" required className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent outline-none transition-all duration-200" />
       </div>
       <div>
+        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone (optional)</label>
+        <input type="tel" id="phone" name="phone" className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent outline-none transition-all duration-200" />
+      </div>
+      <div>
         <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">What would you like washed?</label>
         <select id="service" name="service" className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent outline-none transition-all duration-200">
           <option value="">Select a service type</option>
